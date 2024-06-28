@@ -1,0 +1,4 @@
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\DataAnalyzer\Win32\Debug\Ijwhost.dll
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\DataAnalyzer\Win32\Debug\DataAnalyzer.deps.json
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\DataAnalyzer\Win32\Debug\DataAnalyzer.runtimeconfig.json
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\DataAnalyzer\DataAnalyzer\Win32\Debug\DataAnalyzer.genruntimeconfig.cache

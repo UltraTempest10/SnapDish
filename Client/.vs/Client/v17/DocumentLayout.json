@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|e:\\onedrive - tongji.edu.cn\\workspace\\.net\\snapdish\\client\\client\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|solutionrelative:client\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|e:\\onedrive - tongji.edu.cn\\workspace\\.net\\snapdish\\client\\client\\configs\\httpclientinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|solutionrelative:client\\configs\\httpclientinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|e:\\onedrive - tongji.edu.cn\\workspace\\.net\\snapdish\\client\\client\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|solutionrelative:client\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|e:\\onedrive - tongji.edu.cn\\workspace\\.net\\snapdish\\client\\client\\pages\\recordingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|solutionrelative:client\\pages\\recordingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|e:\\onedrive - tongji.edu.cn\\workspace\\.net\\snapdish\\client\\client\\models\\diary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|solutionrelative:client\\models\\diary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|e:\\onedrive - tongji.edu.cn\\workspace\\.net\\snapdish\\client\\client\\pages\\diarylistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|solutionrelative:client\\pages\\diarylistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|e:\\onedrive - tongji.edu.cn\\workspace\\.net\\snapdish\\client\\client\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|solutionrelative:client\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|e:\\onedrive - tongji.edu.cn\\workspace\\.net\\snapdish\\client\\client\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|solutionrelative:client\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|e:\\onedrive - tongji.edu.cn\\workspace\\.net\\snapdish\\client\\client\\pages\\recordingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|solutionrelative:client\\pages\\recordingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|e:\\onedrive - tongji.edu.cn\\workspace\\.net\\snapdish\\client\\client\\pages\\diarylistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|solutionrelative:client\\pages\\diarylistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|e:\\onedrive - tongji.edu.cn\\workspace\\.net\\snapdish\\client\\client\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD7BDA7D-8FBC-47D2-800B-D9D6A63999A4}|Client\\Client.csproj|solutionrelative:client\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Client\\Pages\\LoginPage.xaml",
+              "ToolTip": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "Client\\Pages\\LoginPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-28T07:23:13.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Pages\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Client\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Pages\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Client\\Pages\\LoginPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T07:25:56.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "Client\\Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "Client\\Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T09:19:14.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HttpClientInstance.cs",
+              "DocumentMoniker": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Configs\\HttpClientInstance.cs",
+              "RelativeDocumentMoniker": "Client\\Configs\\HttpClientInstance.cs",
+              "ToolTip": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Configs\\HttpClientInstance.cs",
+              "RelativeToolTip": "Client\\Configs\\HttpClientInstance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T09:14:22.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RecordingPage.xaml.cs",
+              "DocumentMoniker": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Pages\\RecordingPage.xaml.cs",
+              "RelativeDocumentMoniker": "Client\\Pages\\RecordingPage.xaml.cs",
+              "ToolTip": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Pages\\RecordingPage.xaml.cs",
+              "RelativeToolTip": "Client\\Pages\\RecordingPage.xaml.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADkAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:20:57.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RecordingPage.xaml",
+              "DocumentMoniker": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Pages\\RecordingPage.xaml",
+              "RelativeDocumentMoniker": "Client\\Pages\\RecordingPage.xaml",
+              "ToolTip": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Pages\\RecordingPage.xaml",
+              "RelativeToolTip": "Client\\Pages\\RecordingPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-27T07:20:54.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Client\\MainPage.xaml.cs",
+              "ToolTip": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\MainPage.xaml.cs",
+              "RelativeToolTip": "Client\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:20:50.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Client\\MainPage.xaml",
+              "ToolTip": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\MainPage.xaml",
+              "RelativeToolTip": "Client\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-27T07:20:47.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Diary.cs",
+              "DocumentMoniker": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Models\\Diary.cs",
+              "RelativeDocumentMoniker": "Client\\Models\\Diary.cs",
+              "ToolTip": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Models\\Diary.cs",
+              "RelativeToolTip": "Client\\Models\\Diary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:20:16.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DiaryListPage.xaml.cs",
+              "DocumentMoniker": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Pages\\DiaryListPage.xaml.cs",
+              "RelativeDocumentMoniker": "Client\\Pages\\DiaryListPage.xaml.cs",
+              "ToolTip": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Pages\\DiaryListPage.xaml.cs",
+              "RelativeToolTip": "Client\\Pages\\DiaryListPage.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAUwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:20:13.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DiaryListPage.xaml",
+              "DocumentMoniker": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Pages\\DiaryListPage.xaml",
+              "RelativeDocumentMoniker": "Client\\Pages\\DiaryListPage.xaml",
+              "ToolTip": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Pages\\DiaryListPage.xaml",
+              "RelativeToolTip": "Client\\Pages\\DiaryListPage.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-27T07:20:11.468Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

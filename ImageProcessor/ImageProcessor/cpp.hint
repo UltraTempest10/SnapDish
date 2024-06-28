@@ -1,0 +1,2 @@
+#define IMAGEPROCESSOR_API __declspec(dllexport)
+#define IMAGEPROCESSOR_API __declspec(dllimport)

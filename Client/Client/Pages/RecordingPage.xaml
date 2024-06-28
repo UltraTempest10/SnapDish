@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SnapDishApp.RecordingPage">
+
+    <StackLayout Padding="10"  HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="记录美食"
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+        <Border x:Name="SelectImageBorder" Stroke="Gray" StrokeThickness="2" StrokeDashArray="4,4" BackgroundColor="Transparent" Padding="0" HeightRequest="200" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button x:Name="SelectImageButton" Text="添加图片" Clicked="OnSelectImageClicked" BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+        </Border>
+        <Image x:Name="SelectedImage" Aspect="AspectFit" IsVisible="False" HeightRequest="200" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Button Text="增强" x:Name="EnhanceButton" Clicked="OnEnhanceButtonClicked" IsVisible="False"/>
+        <Label x:Name="StatusLabel"/>
+
+        <Entry x:Name="FoodNameEntry" Placeholder="美食名称" />
+        <Entry x:Name="LocationEntry" Placeholder="地点" />
+        <Editor x:Name="DescriptionEditor" Placeholder="描述" HeightRequest="100" />
+        <Button Text="保存" Clicked="OnSaveClicked" />
+    </StackLayout>
+
+</ContentPage>

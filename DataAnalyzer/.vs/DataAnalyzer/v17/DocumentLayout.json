@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\DataAnalyzer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD005F2-9622-4A2B-828A-FE4B4D69BA04}|DataAnalyzer\\DataAnalyzer.vcxproj|E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\DataAnalyzer\\DataAnalyzer\\DataAnalyzer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BCD005F2-9622-4A2B-828A-FE4B4D69BA04}|DataAnalyzer\\DataAnalyzer.vcxproj|solutionrelative:DataAnalyzer\\DataAnalyzer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD005F2-9622-4A2B-828A-FE4B4D69BA04}|DataAnalyzer\\DataAnalyzer.vcxproj|E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\DataAnalyzer\\DataAnalyzer\\DataAnalyzer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BCD005F2-9622-4A2B-828A-FE4B4D69BA04}|DataAnalyzer\\DataAnalyzer.vcxproj|solutionrelative:DataAnalyzer\\DataAnalyzer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataAnalyzer.cpp",
+              "DocumentMoniker": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\DataAnalyzer\\DataAnalyzer\\DataAnalyzer.cpp",
+              "RelativeDocumentMoniker": "DataAnalyzer\\DataAnalyzer.cpp",
+              "ToolTip": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\DataAnalyzer\\DataAnalyzer\\DataAnalyzer.cpp",
+              "RelativeToolTip": "DataAnalyzer\\DataAnalyzer.cpp",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAEMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-27T18:44:23.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataAnalyzer.h",
+              "DocumentMoniker": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\DataAnalyzer\\DataAnalyzer\\DataAnalyzer.h",
+              "RelativeDocumentMoniker": "DataAnalyzer\\DataAnalyzer.h",
+              "ToolTip": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\DataAnalyzer\\DataAnalyzer\\DataAnalyzer.h",
+              "RelativeToolTip": "DataAnalyzer\\DataAnalyzer.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-27T18:20:40.364Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
