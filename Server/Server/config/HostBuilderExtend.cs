@@ -19,7 +19,7 @@ namespace Server.config
                 {
                     SqlSugarClient db = new SqlSugarClient(new ConnectionConfig
                     {
-                        ConnectionString = "server=121.196.246.253;Database=food;Uid=food;Pwd=.Net1234",
+                        ConnectionString = "server=47.101.10.223;Database=food;Uid=food;Pwd=.Net1234",
                         DbType = DbType.MySql,
                         IsAutoCloseConnection = true
                     });
