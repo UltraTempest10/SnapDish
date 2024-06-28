@@ -15,7 +15,7 @@ namespace Service
             _db = db;
         }
 
-        [LibraryImport("C:/inetpub/wwwroot/snapdish/ImageProcessor.dll", StringMarshalling = StringMarshalling.Utf8)]
+        [LibraryImport("ImageProcessor.dll", StringMarshalling = StringMarshalling.Utf8)]
         public static partial int EnhanceImage(string inputPath, string outputPath);
 
         public List<DiaryBriefDTO> GetDiaryList(int userId)
