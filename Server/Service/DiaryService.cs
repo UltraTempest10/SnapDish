@@ -15,7 +15,7 @@ namespace Service
             _db = db;
         }
 
-        [LibraryImport("ImageProcessor.dll", StringMarshalling = StringMarshalling.Utf8)]
+        [LibraryImport("C:/inetpub/wwwroot/snapdish/ImageProcessor.dll", StringMarshalling = StringMarshalling.Utf8)]
         public static partial int EnhanceImage(string inputPath, string outputPath);
 
         public List<DiaryBriefDTO> GetDiaryList(int userId)
@@ -36,7 +36,9 @@ namespace Service
 
         public Diary GetDiary(int diaryId)
         {
-            return _db.Queryable<Diary>().InSingle(diaryId);
+            return _db.Queryable<Diary>()
+                .Where(d => d.DiaryId == diaryId)
+                .First();
         }
 
         public int AddDiary(Diary diary, string imagePath)
@@ -76,7 +78,9 @@ namespace Service
 
         public int DeleteDiary(int diaryId)
         {
-            return _db.Deleteable<Diary>().In(diaryId).ExecuteCommand();
+            return _db.Deleteable<Diary>()
+                .Where(d => d.DiaryId == diaryId)
+                .ExecuteCommand();
         }
     }
 }
