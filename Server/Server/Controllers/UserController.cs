@@ -164,7 +164,7 @@ namespace Server.Controllers
                     {
                         user.CreateTime = DateTime.Now;
                         user.Permission = 1; // 默认身份权限为普通用户
-                        if (_userService.Register(user) != 1)
+                        if (_userService.Register(user) <= 0)
                             return StatusCode(500, "Failed to register");
                         else
                         {
