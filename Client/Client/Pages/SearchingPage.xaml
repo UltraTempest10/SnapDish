@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SnapDishApp"
+             x:Class="SnapDishApp.SearchingPage">
+
+    <StackLayout Padding="20" Spacing="10">
+        <Label Text="美食推荐" FontSize="24" HorizontalOptions="Center" />
+        <Entry x:Name="PromptEntry" Placeholder="请输入附加需求" />
+        <Button Text="搜索餐馆" Clicked="OnSearchRestaurantsButtonClicked" />
+        <Button Text="搜索菜品" Clicked="OnSearchDishesButtonClicked" />
+        <Label x:Name="ResultLabel" Text="不知道吃什么？试试获取推荐吧！" FontSize="Small"/>
+
+        <Label x:Name="DishesLabel" Text="{Binding Dishes}" IsVisible="{Binding Dishes, Converter={StaticResource StringToVisibilityConverter}}" />
+        <CollectionView x:Name="RestaurantCollection" ItemsSource="{Binding Restaurants}" IsVisible="{Binding Restaurants.Count, Converter={StaticResource CollectionToVisibilityConverter}}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <StackLayout VerticalOptions="CenterAndExpand">
+                            <Label Text="{Binding Name}" FontSize="Large" />
+                            <Label Text="{Binding Category}" FontSize="Medium" />
+                            <Label Text="{Binding Address}" FontSize="Small" />
+                        </StackLayout>
+                        <Image Source="{Binding Image}" WidthRequest="50" HeightRequest="50" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

@@ -1,6 +1,8 @@
 using System;
 using System.Collections.ObjectModel;
+using System.Net.Http.Headers;
 using Microsoft.Maui.Controls;
+using Newtonsoft.Json;
 
 namespace SnapDishApp
 {
@@ -14,36 +16,71 @@ namespace SnapDishApp
             ViewModel = new DiaryListPageViewModel();
             BindingContext = ViewModel;
         }
+
+        private async void OnDiaryItemTapped(object sender, EventArgs e)
+        {
+            if (sender is StackLayout stackLayout)
+            {
+                // 从 StackLayout 中获取 DiaryIdLabel 的值
+                var diaryIdLabel = stackLayout.FindByName<Label>("DiaryIdLabel");
+                if (diaryIdLabel != null && int.TryParse(diaryIdLabel.Text, out int diaryId))
+                {
+                    // 导航到详情页面
+                    await Navigation.PushAsync(new DiaryDetailPage(diaryId));
+                }
+            }
+        }
     }
 
     public class DiaryListPageViewModel
     {
-        public ObservableCollection<Diary> FoodRecords { get; set; }
+        public ObservableCollection<DiaryEntry> DiaryEntries { get; set; }
 
         public DiaryListPageViewModel()
         {
-            FoodRecords = new ObservableCollection<Diary>();
+            DiaryEntries = new ObservableCollection<DiaryEntry>();
             LoadFoodRecords();
         }
 
-        private void LoadFoodRecords()
+        private async void LoadFoodRecords()
         {
-            // 在此处加载数据。此示例中，添加了几个示例记录。
-            FoodRecords.Add(new Diary
+
+            var token = await SecureStorage.Default.GetAsync("auth_token");
+            string url = HttpClientInstance.DiaryListUrl;
+            var diaryEntries = await FetchDiaryEntriesAsync(url, token);
+            DiaryEntries.Clear();
+            if (diaryEntries != null)
             {
-                Title = "麻辣火锅",
-                Location = "成都",
-                Content = "非常美味的麻辣火锅",
-                Date = DateTime.Now
-            });
-            FoodRecords.Add(new Diary
+                foreach (var diaryEntry in diaryEntries)
+                {
+                    DiaryEntries.Add(diaryEntry);
+                }
+            }
+        }
+
+        private async Task<List<DiaryEntry>> FetchDiaryEntriesAsync(string url, string token)
+        {
+            try
             {
-                Title = "北京烤鸭",
-                Location = "北京",
-                Content = "经典的北京烤鸭",
-                Date = DateTime.Now
-            });
+                HttpClientInstance.HttpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+                HttpResponseMessage response = await HttpClientInstance.HttpClient.GetAsync(url);
+
+                response.EnsureSuccessStatusCode();
+
+                string responseBody = await response.Content.ReadAsStringAsync();
+                var diaryEntries = JsonConvert.DeserializeObject<List<DiaryEntry>>(responseBody);
+                return diaryEntries;
+            }
+            catch (HttpRequestException e)
+            {
+                Console.WriteLine($"Request error: {e.Message}");
+                return null;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"General error: {e.Message}");
+                return null;
+            }
         }
     }
-
 }

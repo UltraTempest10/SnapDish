@@ -5,19 +5,28 @@
              x:Class="SnapDishApp.DiaryListPage"
              x:DataType="local:DiaryListPageViewModel">
 
-    <StackLayout Padding="10">
+    <StackLayout Padding="20">
         <Label Text="美食日记"
                FontSize="24"
                HorizontalOptions="Center" />
-        <CollectionView x:Name="FoodRecordsCollection"
-                        ItemsSource="{Binding FoodRecords}">
+        <CollectionView x:Name="DiaryCollection"
+                        ItemsSource="{Binding DiaryEntries}">
             <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="local:FoodRecord">
-                    <StackLayout Padding="10">
-                        <Label Text="{Binding FoodName}" FontSize="20" />
-                        <Label Text="{Binding Location}" FontSize="16" />
-                        <Label Text="{Binding Description}" FontSize="14" />
-                        <Label Text="{Binding Date, StringFormat='{0:yyyy-MM-dd}'}" FontSize="12" />
+                <DataTemplate x:DataType="local:DiaryEntry">
+                    <StackLayout Padding="10" BackgroundColor="White">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnDiaryItemTapped" />
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout VerticalOptions="CenterAndExpand">
+                                <Label Text="{Binding Title}" FontSize="Large" />
+                                <Label Text="{Binding Location}" FontSize="Medium" />
+                                <Label Text="{Binding CreateTime, StringFormat='{0:yyyy-MM-dd HH:mm:ss}'}" FontSize="Small" />
+                            </StackLayout>
+                            <Image Source="{Binding Image}" WidthRequest="50" HeightRequest="50" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                        <!-- 添加一个隐藏的 Label 用来存储 DiaryId -->
+                        <Label x:Name="DiaryIdLabel" Text="{Binding Id}" IsVisible="False" />
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

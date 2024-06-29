@@ -1,0 +1,87 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SnapDishApp.MainPage">
+
+    <Grid Padding="10"
+          VerticalOptions="CenterAndExpand"
+          HorizontalOptions="CenterAndExpand"
+          RowSpacing="10"
+          ColumnSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <!-- 新增的行定义 -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.ColumnSpan="2"
+               Text="随食随记"
+               FontSize="36"
+               Margin="20"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+        <Button Text="记录美食"
+                    Grid.Row="1" Grid.Column="0"
+               FontSize="Large"
+               BackgroundColor="LightBlue"
+               CornerRadius="10"
+               HeightRequest="150"
+               WidthRequest="150"
+                    Clicked="OnRecordFoodClicked"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand" />
+
+        <Button Text="查看日记"
+               Grid.Row="1" Grid.Column="1"
+                FontSize="Large"
+               BackgroundColor="LightGreen"
+               CornerRadius="10"
+               HeightRequest="150"
+               WidthRequest="150"
+               Clicked="OnViewDiaryClicked"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+        <Button Text="今日推荐"
+                    Grid.Row="2" Grid.Column="0"
+               BackgroundColor="LightCoral"
+                    FontSize="Large"
+               CornerRadius="10"
+               HeightRequest="150"
+               WidthRequest="150"
+                    Clicked="OnGetRecommendationClicked"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand" />
+
+
+        <Button Text="个人数据"
+                    Grid.Row="2" Grid.Column="1"
+                FontSize="Large"
+               BackgroundColor="Goldenrod"
+               CornerRadius="10"
+               HeightRequest="150"
+               WidthRequest="150"
+                    Clicked="OnViewDataClicked"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand" />
+
+        <!-- 新增的退出按钮 -->
+        <Button Text="退出登录"
+                    Grid.Row="3" Grid.ColumnSpan="2"
+                FontSize="Medium"
+               BackgroundColor="Transparent"
+                TextColor="Red"
+               CornerRadius="10"
+               HeightRequest="100"
+               WidthRequest="300"
+                    Clicked="OnLogoutClicked"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand" />
+    </Grid>
+</ContentPage>

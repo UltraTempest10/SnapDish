@@ -1,0 +1,1 @@
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\Client\Client\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppPackages\Client_0.0.1.0_Debug_Test\Client_0.0.1.0_x86_Debug.msix

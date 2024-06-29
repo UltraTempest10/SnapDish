@@ -1,0 +1,12 @@
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\Client\Client\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Client.csproj.AssemblyReference.cache
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\Client\Client\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\Client\Client\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\Client\Client\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\Client\Client\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\Client\Client\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\Client\Client\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\Client\Client\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\Client\Client\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\Client\Client\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\Client\Client\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+E:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\Client\Client\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Client.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SnapDishApp"
+             x:Class="SnapDishApp.StatisticsPage">
+
+    <StackLayout Padding="20" Spacing="10">
+        <Label Text="统计数据" FontSize="24" HorizontalOptions="Center" />
+        <Label Text="总体平均评分" FontSize="18" />
+        <Label Text="{Binding OverallAverageRating}" FontSize="18" />
+
+        <Label Text="近三个月平均评分" FontSize="18" />
+        <ListView ItemsSource="{Binding MonthlyAverageRatings}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Key}" Detail="{Binding Value}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Label Text="位置频率" FontSize="18" />
+        <ListView ItemsSource="{Binding LocationFrequencies}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Key}" Detail="{Binding Value}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Label Text="评分分布" FontSize="18" />
+        <ListView ItemsSource="{Binding RatingDistribution}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Label}" />
+                            <Label Text="{Binding Count}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

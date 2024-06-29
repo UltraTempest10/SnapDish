@@ -6,7 +6,7 @@
   xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
   IgnorableNamespaces="uap rescap">
 
-  <Identity Name="maui-package-name-placeholder" Publisher="CN=User Name" Version="0.0.0.0" />
+  <Identity Name="maui-package-name-placeholder" Publisher="CN=User Name" Version="0.0.1.0" />
 
   <mp:PhoneIdentity PhoneProductId="47FC5257-2DA9-4B9E-B826-CC9F7DB416FC" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
