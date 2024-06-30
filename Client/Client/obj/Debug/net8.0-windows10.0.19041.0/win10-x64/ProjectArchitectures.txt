@@ -1,0 +1,1 @@
+D:\OneDrive - tongji.edu.cn\workspace\.NET\SnapDish\Client\Client\Client.csproj;x64

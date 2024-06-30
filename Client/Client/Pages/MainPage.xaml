@@ -20,33 +20,33 @@
         </Grid.ColumnDefinitions>
 
         <Label Grid.Row="0" Grid.ColumnSpan="2"
-               Text="随食随记"
-               FontSize="36"
-               Margin="20"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" />
+                Text="随食随记"
+                FontSize="36"
+                Margin="20"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" />
 
         <Button Text="记录美食"
-                    Grid.Row="1" Grid.Column="0"
-               FontSize="Large"
-               BackgroundColor="LightBlue"
-               CornerRadius="10"
-               HeightRequest="150"
-               WidthRequest="150"
+                Grid.Row="1" Grid.Column="0"
+                FontSize="Large"
+                BackgroundColor="LightBlue"
+                CornerRadius="10"
+                HeightRequest="150"
+                WidthRequest="150"
                     Clicked="OnRecordFoodClicked"
                     HorizontalOptions="Center"
                     VerticalOptions="CenterAndExpand" />
 
         <Button Text="查看日记"
-               Grid.Row="1" Grid.Column="1"
+                Grid.Row="1" Grid.Column="1"
                 FontSize="Large"
-               BackgroundColor="LightGreen"
-               CornerRadius="10"
-               HeightRequest="150"
-               WidthRequest="150"
-               Clicked="OnViewDiaryClicked"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" />
+                BackgroundColor="LightGreen"
+                CornerRadius="10"
+                HeightRequest="150"
+                WidthRequest="150"
+                Clicked="OnViewDiaryClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" />
 
         <Button Text="今日推荐"
                     Grid.Row="2" Grid.Column="0"

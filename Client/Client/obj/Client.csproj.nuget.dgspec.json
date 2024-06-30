@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Client.csproj": {}
+    "D:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Client.csproj": {}
   },
   "projects": {
-    "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Client.csproj": {
+    "D:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Client.csproj",
+        "projectUniqueName": "D:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Client.csproj",
+        "projectPath": "D:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\UltraTempest\\.nuget\\packages\\",
-        "outputPath": "E:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\obj\\",
+        "outputPath": "D:\\OneDrive - tongji.edu.cn\\workspace\\.NET\\SnapDish\\Client\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "F:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\UltraTempest\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -80,16 +80,16 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.5, )",
+              "version": "[8.0.3, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -116,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
@@ -135,16 +135,16 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.5, )",
+              "version": "[8.0.3, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -171,7 +171,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
@@ -190,16 +190,16 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.5, )",
+              "version": "[8.0.3, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -227,7 +227,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
@@ -246,11 +246,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.7, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -282,7 +282,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
